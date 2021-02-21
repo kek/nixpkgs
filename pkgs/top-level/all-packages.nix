@@ -2263,6 +2263,8 @@ in
 
   enca = callPackage ../tools/text/enca { };
 
+  enigma = callPackage ../games/enigma {};
+
   ent = callPackage ../tools/misc/ent { };
 
   envconsul = callPackage ../tools/system/envconsul { };
@@ -23801,6 +23803,8 @@ in
   ncmpc = callPackage ../applications/audio/ncmpc { };
 
   ncmpcpp = callPackage ../applications/audio/ncmpcpp { };
+
+  pragha = libsForQt5.callPackage ../applications/audio/pragha { };
 
   rofi-mpd = callPackage ../applications/audio/rofi-mpd { };
 
